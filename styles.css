@@ -1,0 +1,109 @@
+
+
+main {
+    text-align: center;
+    padding: 10 px;
+}
+
+body, html {
+    background-color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) { header, main {
+    max-width: 600px;
+}
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0;
+    color: rgb(66, 0, 147);
+    text-align: center;
+}
+
+h2 + p + p {
+    color: rgb(66, 0, 147);
+}
+
+p {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a {
+    flex: 1;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: silver;
+    text-decoration: underline;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:active {
+    color: white;
+}
+
+section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.button {
+    display: block;
+    margin: none;
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 19px;
+    transition-duration: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    background-color: blanchedalmond;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav {
+    padding: 1%;
+}
+.button1 {
+    position: relative;
+}
+.button2 {
+    position: relative;
+}
+.button3 {
+    position: relative;
+}
