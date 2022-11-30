@@ -5,10 +5,13 @@ main {
     text-align: center;
     padding: 10px;
 }
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
 body, html {
     background-color: white;
     margin: 0;
-    font-family: sans-serif;
 }
 img {
     display: block;
@@ -30,17 +33,11 @@ h2 {
 h2 + p + p {
     color: rgb(66, 0, 147);
 }
-p {
-    font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 a {
     flex: 1;
     outline: none;
     text-align: center;
     line-height: 3;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
 }
 a:link {
     color: white;
